@@ -1,0 +1,44 @@
+:root {
+  --menu-name-color: rgb(182, 182, 182);
+}
+
+.me-image {
+  right: 0;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0px;
+  filter: grayscale(1);
+}
+.image-name-container {
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: center; */
+  height: 100vh;
+}
+.name-homepage-configuration {
+  text-transform: uppercase;
+  color: #ffffff;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.menu-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.menu-container a {
+  text-decoration: none;
+}
+.menu-container div {
+  text-transform: uppercase;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  color: var(--menu-name-color);
+  font-family: 'Sen', sans-serif;
+  border-bottom: 1px solid var(--menu-name-color);
+}
+.blog-card-container {
+  padding: 0.8rem;
+  background: white;
+  width: 50%;
+  height: 200px;
+}
