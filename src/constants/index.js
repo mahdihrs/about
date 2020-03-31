@@ -14,3 +14,9 @@ export const menu_list = [{
   name: 'Contact',
   url: '/contact'
 }];
+
+export const cat_color_indicator = [
+  'primary',
+  'secondary',
+  'success'
+]

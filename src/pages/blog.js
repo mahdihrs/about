@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 const Blog = () => {
   return (
     <Layout>
-      <div>123</div>
+      <BlogCard />
       <BlogCard />
     </Layout>
   )

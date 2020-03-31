@@ -37,8 +37,11 @@
   border-bottom: 1px solid var(--menu-name-color);
 }
 .blog-card-container {
+  margin-bottom: 1rem;
+  border: 1px dashed black;
+  border-radius: 25px;
   padding: 0.8rem;
   background: white;
   width: 50%;
-  height: 200px;
+  min-height: 200px;
 }

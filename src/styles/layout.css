@@ -200,7 +200,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  background-color: rgb(50,50,50);
+  /* background-color: rgb(50,50,50); */
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;

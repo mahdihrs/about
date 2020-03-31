@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
           padding: `0px 1.0875rem 1.45rem`,
           paddingTop: 0,
           height: '100vh',
-          backgroundColor: 'rgb(50,50,50)'
+          // backgroundColor: 'rgb(50,50,50)'
         }}
       >
         <Menu />
