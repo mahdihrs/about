@@ -15,9 +15,9 @@ const BlogCard = () => {
       <p>Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec rutrum congue leo eget malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       {/* <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus suscipit tortor eget felis porttitor volutpat. Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Nulla quis lorem ut libero malesuada feugiat.</p> */}
       {cat_color_indicator.map(colin => (
-        <>
+        <div key={colin}>
           <Badge pill variant={colin}>Primary</Badge>{' '}
-        </>
+        </div>
       ))}
     </div>
   )

@@ -9,6 +9,7 @@ const Blog = () => {
     <Layout>
       <BlogCard />
       <BlogCard />
+      <BlogCard />
     </Layout>
   )
 }

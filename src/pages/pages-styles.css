@@ -10,10 +10,13 @@
   filter: grayscale(1);
 }
 .image-name-container {
+  /* background-image: url('/assets/me-lofi.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100vw; */
   /* display: flex;
   justify-content: flex-start;
   align-items: center; */
-  height: 100vh;
+  /* height: 100vh; */
 }
 .name-homepage-configuration {
   text-transform: uppercase;

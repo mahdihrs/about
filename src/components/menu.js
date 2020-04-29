@@ -7,7 +7,7 @@ const Menu = () => {
   return (
     <div className="menu-container">
       {menu_list.map(menu => (
-        <Link to={menu.url}>
+        <Link to={menu.url} key={menu.name}>
           <div>{menu.name}</div>
         </Link>
       ))}

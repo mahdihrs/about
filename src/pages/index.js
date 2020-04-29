@@ -17,8 +17,7 @@ const IndexPage = () => {
           <MeName />
         </div> */}
         {/* <Image style="me-image" /> */}
-        <img className="me-image" src="/assets/me.png" alt="it's me" />
-        {/* <iframe src="https://open.spotify.com/embed/playlist/2FftBsGcnPsosTiLRfb8gf" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" autoplay></iframe> */}
+        {/* <img className="me-image" src="/assets/me.png" alt="it's me" /> */}
       </div>
     </Layout>
   );

@@ -10,7 +10,7 @@ import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
 import Menu from './menu';
-import Header from "./header";
+// import Header from "./header";
 import "./layout.css";
 
 const Layout = ({ children }) => {
@@ -35,18 +35,20 @@ const Layout = ({ children }) => {
           padding: `0px 1.0875rem 1.45rem`,
           paddingTop: 0,
           height: '100vh',
-          // backgroundColor: 'rgb(50,50,50)'
+          backgroundImage: `${window.location.pathname === '/' && "url('/assets/me-lofi.jpeg')"}`,
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: '100vw'
         }}
       >
         <Menu />
         <main>
           {children}
         </main>
-        <footer>
+        {/* <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        </footer> */}
       </div>
     </>
   )
