@@ -1,11 +1,12 @@
 import React from 'react';
-import './App.css';
 import aing from './assets/me-lofi.jpeg'
+import Navbar from './components/navbar/index';
 
 function App() {
   return (
     <>
-      <img src={aing} alt="gambar aing" />
+      <Navbar />
+      <img src={aing} alt="gambar aing" style={{height: '100vh'}} />
     </>
   );
 }

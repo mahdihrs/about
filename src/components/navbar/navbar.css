@@ -1,0 +1,11 @@
+#navbar-container {
+  position: absolute;
+  width: 100vw;
+  height: 2rem;
+  left: 30%;
+  right: 70%;
+  top: 5%;
+}
+#navbar-container span {
+  margin-right: 10px;
+}
