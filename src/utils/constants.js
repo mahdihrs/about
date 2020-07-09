@@ -3,7 +3,7 @@ import instagram from '../assets/icons/instagram.svg';
 import linkedin from '../assets/icons/linkedin.svg';
 
 export const social_medias = [{
-  icon: facebook,
+  icon: facebook, 
   alt: "Facebook",
   href: "https://facebook.com/MahdiHaris23" 
 }, {

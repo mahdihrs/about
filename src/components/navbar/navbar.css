@@ -1,6 +1,6 @@
 #navbar-container {
   position: absolute;
-  width: 100vw;
+  /* width: 100vw; */
   height: 2rem;
   left: 30%;
   right: 70%;
