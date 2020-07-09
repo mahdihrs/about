@@ -3,9 +3,9 @@ import './navbar.css';
 
 import { social_medias } from '../../utils/constants';
 
-function NavbarComponent() {
+function SocialMedia() {
   return (
-    <div id="navbar-container">
+    <div id="navbar-container">s
       {social_medias.map(menu => (
         <span key={menu.alt}>
           <a href={menu.href} target="blank">
@@ -17,4 +17,4 @@ function NavbarComponent() {
   )
 }
 
-export default NavbarComponent;
+export default SocialMedia;
