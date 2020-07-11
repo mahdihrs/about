@@ -1,0 +1,16 @@
+:root {
+  --whole-vh: 100vh;
+  --wrapper-color: rgb(53, 53, 53);
+}
+#container {
+  display: flex;
+  justify-content: space-between;
+}
+#social-media-wrapper {
+  height: var(--whole-vh);
+  background-color: var(--wrapper-color);
+  width: 100%;
+}
+#banner-image {
+  height: var(--whole-vh);
+}
