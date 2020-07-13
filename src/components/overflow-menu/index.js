@@ -1,11 +1,12 @@
 import React from 'react';
 
 import './overflow-menu.css';
+import SocialMedia from '../../components/navbar/index';
 
 function OverflowMenu() {
   return (
     <div id="overflow-container">
-      123
+      <SocialMedia />
     </div>
   )
 }
