@@ -10,6 +10,9 @@
   height: var(--whole-vh);
   background-color: var(--wrapper-color);
   width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 #banner-image {
   height: var(--whole-vh);

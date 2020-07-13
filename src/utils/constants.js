@@ -1,6 +1,7 @@
 import facebook from '../assets/icons/facebook.svg';
 import instagram from '../assets/icons/instagram.svg';
 import linkedin from '../assets/icons/linkedin.svg';
+import medium from '../assets/icons/medium_logo.png';
 
 export const social_medias = [{
   icon: facebook, 
@@ -15,7 +16,11 @@ export const social_medias = [{
   alt: "LinkedIn",
   href: "https://www.linkedin.com/in/mahdi-haris-624438120/" 
 }, {
-  icon: "Blog",
-  alt: "Blog",
-  href: "Blog"
+  icon: medium,
+  alt: "Medium",
+  href: "https://medium.com/@Mahdi_Haris" 
+}, {
+  icon: linkedin,
+  alt: "Portfolio",
+  href: "https://www.linkedin.com/in/mahdi-haris-624438120/" 
 }]
