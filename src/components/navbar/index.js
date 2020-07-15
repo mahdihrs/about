@@ -8,12 +8,12 @@ function SocialMedia() {
     <div id="navbar-container">
       <h4>MAHDI HARIS</h4>
       {social_medias.map(menu => (
-        <div className="menu-wrapper" key={menu.alt}>
-          <a href={menu.href} target="blank">
+        <a href={menu.href} target="blank" key={menu.alt}>
+          <div className="menu-wrapper">
             <img src={menu.icon} alt={menu.alt} height="35px" />
-          </a>          
-          <span>{menu.alt}</span>
-        </div>
+            <span>{menu.alt}</span>
+          </div>
+        </a>
       ))}
     </div>
   )
