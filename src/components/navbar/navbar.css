@@ -14,6 +14,9 @@
   letter-spacing: 0.4rem;
   font-size: 2rem;
 }
+#navbar-container a:hover {
+  background-color: grey;
+}
 #navbar-container span {
   margin-left: 1rem;
   color: var(--background-contrast);

@@ -22,5 +22,5 @@ export const social_medias = [{
 }, {
   icon: linkedin,
   alt: "Portfolio",
-  href: "https://www.linkedin.com/in/mahdi-haris-624438120/" 
+  href: "https://linktr.ee/mahdiharis" 
 }]
